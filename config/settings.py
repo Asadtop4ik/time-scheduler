@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # 3rd party
     'rest_framework',
     'drf_spectacular',
-
+    'django_celery_beat',
     # Local
     'time_schedule',
 ]
@@ -146,7 +146,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
-CELERY_BROKER_URL = 'amqp://guest:guest@rabbitmq:5672/'
-CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 
 
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'

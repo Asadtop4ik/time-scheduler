@@ -21,3 +21,5 @@ class PaymentViewSet(viewsets.ModelViewSet):
     def process_payments(self, request):
         process_monthly_payments()
         return Response({"status": "Payments processed successfully"})
+
+
