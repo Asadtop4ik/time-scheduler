@@ -1,7 +1,3 @@
-Here’s a sample **README.md** file for your GitHub repository that explains what was done in this project, including the setup, functionality, and testing process. You can customize it further based on your preferences.
-
----
-
 # Time Scheduler
 
 This is a Django-based project that implements a **monthly payment processing system** for students with payment plans. It includes functionality for scheduling tasks using **Celery** and **Celery Beat**, as well as unit tests to validate the payment processing logic.
@@ -160,10 +156,4 @@ time-scheduler/
 
 ## Author
 
-Created by **Asadbek** as a learning task to get started with Django, Celery, and automated task scheduling.
-
-Feel free to contribute or suggest improvements!
-
----
-
-This README file provides a comprehensive overview of your project and should help others understand and work with it easily. Let me know if you'd like to add or modify anything!
+This project was created by [Asadbek Azamatov](https://github.com/Asadtop4ik).
